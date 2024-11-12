@@ -114,7 +114,7 @@ void deletar() {
             
             senha_crypto(senha); 
             
-            if (strcmp(senhas[i], senha) == 0) {  // Verifica se a senha está correta
+            if (strcmp(senhas[i], senha) == 0) {  
                 int j;
                 for (j = i; j < conta - 1; j++) {
                     strcpy(usuarios[j], usuarios[j + 1]);
